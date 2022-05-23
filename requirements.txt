@@ -1,0 +1,4 @@
+numpy==1.22.3
+opencv-python==4.5.5.64
+six==1.16.0
+
