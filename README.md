@@ -10,7 +10,7 @@ pip3 install virtualenv
 virtualenv --python=/opt/python-3.8/bin/python venv
 ```
 
-### 進入安裝虛擬環境
+### 建立安裝好的虛擬環境
 ```
 python3 -m venv venv
 ```

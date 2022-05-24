@@ -39,7 +39,7 @@ while True:
 
     print(detections)
     cv2.imshow('frame', frame)
-    cv2.imshow('mask', mask)
+    # cv2.imshow('mask', mask)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
