@@ -25,3 +25,7 @@ source ./venv/bin/activate
 ```
 pip install -r requirements.txt 
 ```
+### 執行
+```
+python FishTracker.py
+```
