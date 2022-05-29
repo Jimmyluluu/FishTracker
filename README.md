@@ -1,11 +1,11 @@
-## 使用虛擬環境
+# 使用虛擬環境
 
+## 首次進入
 ### 使用 virtualenv 環境
 ```
 pip3 install virtualenv
 ```
 
-### 如果有看到一個檔案叫 venv 可以跳到進入環境 也不需要下載所需套件
 
 ### 使用安裝 python 3.8 環境
 ```
@@ -24,6 +24,15 @@ source ./venv/bin/activate
 ### 下載所需套件
 ```
 pip install -r requirements.txt 
+```
+### 執行
+```
+python FishTracker.py
+```
+## 創建好虛擬環境後
+### 進入此環境
+```
+source ./venv/bin/activate
 ```
 ### 執行
 ```
