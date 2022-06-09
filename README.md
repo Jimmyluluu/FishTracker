@@ -6,7 +6,6 @@
 pip3 install virtualenv
 ```
 
-
 ### 使用安裝 python 3.8 環境(可省略)
 ```
 virtualenv --python=/opt/python-3.8/bin/python venv
