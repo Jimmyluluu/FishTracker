@@ -7,7 +7,7 @@ pip3 install virtualenv
 ```
 
 
-### 使用安裝 python 3.8 環境
+### 使用安裝 python 3.8 環境(可省略)
 ```
 virtualenv --python=/opt/python-3.8/bin/python venv
 ```
@@ -17,9 +17,13 @@ virtualenv --python=/opt/python-3.8/bin/python venv
 python3 -m venv venv
 ```
 
-### 進入此環境
+### 進入此環境 mac
 ```
 source ./venv/bin/activate
+```
+### 進入此環境 windows
+```
+ .\venv\Scripts\activate.ps1 
 ```
 ### 下載所需套件
 ```
