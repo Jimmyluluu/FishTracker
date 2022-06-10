@@ -1,6 +1,5 @@
 import cv2
 
-
 cap = cv2.VideoCapture("oneFishTest.mp4")
 
 # 背景分離
@@ -29,6 +28,9 @@ while True:
             # x y 是頂點座標
             # w h 是物件的長及寬
             # x + w, y + h 是對象頂點座標
+            # 加入文字
+            cv2.putText(frame, "Fish", (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+
             cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0))
             detections.append([x, y, w, h])
 
